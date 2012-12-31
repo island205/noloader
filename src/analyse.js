@@ -126,7 +126,7 @@ function analyseDependence(ref) {
     module, dependences = basestone.set()
 
     dependences.add({
-        id: getRealModulePath('.', ref),
+        id: getRealModulePath(process.cwd(), ref),
         refs: [ref],
         deep: 0,
         code: '',

@@ -1,0 +1,7 @@
+var
+fs = require('fs'),
+path = require('path'),
+src = path.join(path.dirname(fs.realpathSync(__filename)) , '../src')
+noloader =  require(src + '/noloader')
+console.log(JSON.stringify(process.argv))
+console.log(noloader.pack(process.argv[2]))

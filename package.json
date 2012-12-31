@@ -1,0 +1,5 @@
+{
+    "name": "noloader",
+    "version": "v0.0.1",
+    "bin": {"noloader": "./bin/noloader"}
+}

@@ -1,5 +1,10 @@
 {
-    "name": "noloader",
-    "version": "v0.0.1",
-    "bin": {"noloader": "./bin/noloader"}
+  "name": "noloader",
+  "version": "v0.0.1",
+  "bin": {
+    "noloader": "./bin/noloader"
+  },
+  "dependencies": {
+    "uglify-js": "~1.3.5"
+  }
 }

@@ -20,9 +20,7 @@
 var
 parser = require('uglify-js').parser,
 fs = require('fs'),
-path = require('path'),
-
-basestone = require('basestone'),
+path = require('path')
 
 __toString = Object.prototype.toString
 
